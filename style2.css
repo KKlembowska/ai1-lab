@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+/* Ustawienie tła strony */
+body {
+  background-image: url(grass.jpg);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Styl dla nagłówka */
+header {
+  background-color: rgb(43, 138, 142);
+  opacity: 0.9;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-family: cursive, "Lucida Handwriting";
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  font-size: 26px;
+  font-family: 'Dancing Script';
+}
+
+.middle {
+  background-color: cadetblue;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Styl dla nawigacji */
+.left {
+  opacity: 0.9;
+  background-color: rgb(171, 252, 255);
+  border-radius: 10px;
+}
+
+nav {
+  color: black;
+  padding: 10px;
+}
+
+nav h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  list-style-type: circle;
+}
+
+nav li {
+  margin-bottom: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Styl dla treści */
+.main {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.main h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.main p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.main img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Styl dla stopki */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+/* Styl dla listy z faktami */
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+.middle{
+  float: left;
+  width: 70%;
+}
+.left{
+  float: left;
+  width: 20%;
+}
+footer {
+  float: left;
+  width: 100%;
+}
+
+img {
+  width: 50%;
+  border-radius: 8px;
+}
+
+
+@media(max-width: 400px) {
+  body {
+    max-width: none; /* Usunięcie ograniczenia maksymalnej szerokości dla małych ekranów */
+  }
+
+  header {
+    padding: 5px 0; /* Pomniejszenie paddingu dla nagłówka */
+  }
+
+  header h1 {
+    font-size: 16px; /* Pomniejszenie rozmiaru czcionki dla nagłówka */
+  }
+
+  header h2 {
+    font-size: 14px; /* Pomniejszenie rozmiaru czcionki dla podtytułu */
+  }
+
+  .middle, .left, footer {
+    width: 100%; /* Rozciągnięcie wszystkich elementów na szerokość 100% */
+    float: none; /* Usunięcie wartości float dla elementów */
+  }
+  nav a{
+    font-size: 6px;
+  }
+  img {
+    width: 100%; /* Rozciągnięcie obrazów na szerokość 100% */
+    border-radius: 0; /* Usunięcie zaokrąglenia obrazów */
+  }
+}

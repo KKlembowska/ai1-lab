@@ -1,0 +1,32 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+    background-color: rgb(206, 206, 250);
+	margin: 0; 
+	padding: 0;
+	}
+  
+  h1,h2 {
+    color: white;
+    text-align: center;
+  }
+  h3{
+    font-family: "Lucida Handwriting",monospace;
+    font-size: 30px;
+    margin-bottom: 0%;
+    word-spacing: 5px;
+  }
+  p {
+    margin-top: 0%;
+    font-family: verdana;
+    font-size: 12px;
+  }
+
+  footer {
+    text-align: center;
+  }

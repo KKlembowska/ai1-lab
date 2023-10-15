@@ -1,0 +1,145 @@
+/* Importy czcionek */
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+
+/* Resetowanie stylów */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tło strony */
+body {
+  text-align: left;
+  background-image: url(grass.jpg);
+  font-family: 'Verdana', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0 20px; /* Przesunięcie od lewej i prawej strony */
+}
+
+/* Nagłówek */
+header {
+  background-color: #4caf50;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 20px; /* Przesunięcie od lewej i prawej strony */
+}
+
+header h1 {
+  font-family: 'Luckiest Guy';
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+header h2 {
+  font-size: 28px;
+  font-family: 'Waiting for the Sunrise';
+}
+
+/* Nawigacja */
+nav {
+  background-color: #3498db;
+  border-radius: 3px;
+  padding: 15px;
+  margin-top: 5px;
+  margin: 0 20px; /* Przesunięcie od lewej i prawej strony */
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-family: 'Rubik Mono One';
+}
+
+nav ul {
+  list-style: square;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Styl dla sekcji .a1, .a2, .a3 */
+.a1, .a2, .a3 {
+  background-color: lightblue;
+  border: 2px solid rgb(124, 219, 251);
+  padding: 20px;
+  border-radius: 5px;
+  margin: 5px 20px; /* Przesunięcie od lewej i prawej strony */
+  font-family: 'Rubik Mono One';
+}
+
+
+/* Treść */
+p{
+  font-size: 18px;
+  font-family: 'Courgette';
+  margin-bottom: 20px;
+}
+
+ul {
+  font-family: 'Courgette';
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 100px;
+  border: 4px solid #ccc;
+  margin-right: 20px; /* Przesunięcie od prawej strony */
+}
+
+/* Stopka */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Lista z faktami */
+ul {
+  list-style: square;
+  margin-left: 30px;
+}
+
+
+
+@media(max-width: 400px) {
+  body {
+    max-width: none; /* Usunięcie ograniczenia maksymalnej szerokości dla małych ekranów */
+  }
+
+  header {
+    padding: 5px 0; /* Pomniejszenie paddingu dla nagłówka */
+  }
+
+  header h1 {
+    font-size: 16px; /* Pomniejszenie rozmiaru czcionki dla nagłówka */
+  }
+
+  header h2 {
+    font-size: 14px; /* Pomniejszenie rozmiaru czcionki dla podtytułu */
+  }
+
+  .middle, .left, footer {
+    width: 100%; /* Rozciągnięcie wszystkich elementów na szerokość 100% */
+    float: none; /* Usunięcie wartości float dla elementów */
+  }
+
+  img {
+    width: 100%; /* Rozciągnięcie obrazów na szerokość 100% */
+    border-radius: 0; /* Usunięcie zaokrąglenia obrazów */
+  }
+}
