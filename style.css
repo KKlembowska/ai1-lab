@@ -1,0 +1,67 @@
+h1{
+   text-align: center;
+}
+body{
+   background-image: url("flower.png");
+}
+ mark.amark { 
+   color: black; 
+   background: rgb(147, 83, 236); 
+} 
+ul{
+   list-style-type:none;
+   margin:0;
+   padding: 0;
+   margin-bottom: 0;
+
+}
+ul li {
+   cursor: pointer;
+   position: relative;
+   padding: 12px 8px 12px 40px;
+   margin: 0;
+   margin-bottom: 0;
+   background: #b672e0ac;
+   font-size: 18px;
+   transition: 0.2s;
+   
+ 
+   /* make the list items unselectable */
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+ }
+
+ /* Set all odd list items to a different color (zebra-stripes) */
+ ul li:nth-child(odd) {
+   background: #f6aaecc3;
+ }
+
+ .textF{
+   display: inline-block;
+   width: 80%;
+   font-size: 24px;
+   font-family: 'Verdana', sans-serif;
+   color: black;
+ }
+ .dateF{
+   display: inline-block;
+   width: 15%;
+ }
+.dButton{
+   display: inline-block;
+   width: 5%;
+   background-color: red;
+}
+
+#search{
+   width: 100%;
+}
+
+.dodawanie{
+   margin-top: 0;
+   background-color: rgba(100, 148, 237, 0.67) ;
+   padding: 12px 8px 12px 40px;
+   
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista Zadań</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--  -->
+    <meta name="viewport" content= 
+        "width=device-width, initial-scale=1.0"> 
+  
+    <!-- CDN of fontawsome -->
+    <link rel="stylesheet" href= 
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  
+    <!-- CDN of Bootstrap -->
+    <link rel="stylesheet" href= 
+    "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity= 
+    "sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" 
+        crossorigin="anonymous"> 
+  
+    <!-- CDN of mark.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"
+        integrity= 
+    "sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww=="
+        crossorigin="anonymous"> 
+    </script> 
+    <!--  -->
+
+</head>
+<body>
+    <h1>Lista Zadań</h1>
+
+    <!-- Pole wyszukiwarki -->
+    <input type="text" id="search" placeholder="Szukaj zadania">
+
+    <!-- Lista zadań -->
+    <ul id="taskList"> 
+        <!-- <li class="listItem"><a contenteditable="true" class="textF">aaaa</a><input type="date" alt="2023-11-03" class="dateF"><button class="dButton">X</button></li>
+        <li class="listItem"><a contenteditable="true" class="textF">bbbb</a><input type="date" alt="2024-01-03" class="dateF"><button class="dButton">X</button></li> -->
+    </ul>
+
+    <!-- Pole do dodawania nowych zadań -->
+    <div class="dodawanie">
+        <input type="text" id="current" placeholder="do zrobienia">
+        <input type="date" id="taskDeadline" placeholder="Termin wykonania">
+        <button id="saveButton">zapisz</button>
+    
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
