@@ -1,0 +1,64 @@
+body{
+  margin: 0;
+    padding: 0;
+  }
+  
+  #map {
+    width: 600px;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border: 7px solid black;
+    float: left;
+  }
+  
+  #Completed {
+    width: 608px;
+    height: 408px;
+    margin-left: 650px;
+    margin-top: 5px;
+    border: 3px solid black;
+  }
+  
+  #buttons {
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 100%;
+    float:left;
+  
+  }
+  
+  #rasterMap{
+    width: 1200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border: 3px solid black;
+    float:left   
+  
+  }
+  
+  .rectangleInBoard {
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    float:left;
+    
+  }
+  
+  #rasterMap img{
+      width: 150px;
+      height: 100px;
+  }
+  
+  button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  

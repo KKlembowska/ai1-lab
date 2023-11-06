@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>puzzle</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+    integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+  <script src='leaflet-image.js'></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="functions.js"></script>
+</head>
+
+<body>
+  
+  <div id="map"></div>
+  <div id="Completed">
+    <div class="rectangleInBoard" ondrop="drop(event)" ondragover="allowDrop(event)" data-id="0"></div>
+    <div class="rectangleInBoard" ondrop="drop(event)" ondragover="allowDrop(event)" data-id="4"></div>
+    <div class="rectangleInBoard" ondrop="drop(event)" ondragover="allowDrop(event)" data-id="8"></div>
+    <div class="rectangleInBoard" ondrop="drop(event)" ondragover="allowDrop(event)" data-id="12"></div>
+    <div class="rectangleInBoard" ondrop="drop(event)" ondragover="allowDrop(event)" data-id="1"></div>
+    <div class="rectangleInBoard" ondrop="drop(event)" ondragover="allowDrop(event)" data-id="5"></div>
+    <div class="rectangleInBoard" ondrop="drop(event)" ondragover="allowDrop(event)" data-id="9"></div>
+    <div class="rectangleInBoard" ondrop="drop(event)" ondragover="allowDrop(event)" data-id="13"></div>
+    <div class="rectangleInBoard" ondrop="drop(event)" ondragover="allowDrop(event)" data-id="2"></div>
+    <div class="rectangleInBoard" ondrop="drop(event)" ondragover="allowDrop(event)" data-id="6"></div>
+    <div class="rectangleInBoard" ondrop="drop(event)" ondragover="allowDrop(event)" data-id="10"></div>
+    <div class="rectangleInBoard" ondrop="drop(event)" ondragover="allowDrop(event)" data-id="14"></div>
+    <div class="rectangleInBoard" ondrop="drop(event)" ondragover="allowDrop(event)" data-id="3"></div>
+    <div class="rectangleInBoard" ondrop="drop(event)" ondragover="allowDrop(event)" data-id="7"></div>
+    <div class="rectangleInBoard" ondrop="drop(event)" ondragover="allowDrop(event)" data-id="11"></div>
+    <div class="rectangleInBoard" ondrop="drop(event)" ondragover="allowDrop(event)" data-id="15"></div>
+    
+  </div>
+
+  <div id="buttons">
+    <button type="button" onclick=findLocation()>Moja lokalizacja</button>
+    <button id="buttonRaster" type="button" onclick=doImage()>Pobierz mapę</button>
+    <button type="button" onclick=cutImageUp()>Puzzle</button>
+  </div>
+  <div id="rasterMap"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
