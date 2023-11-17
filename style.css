@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img.jpg);
+}
+h1{
+    margin-bottom: 20px; 
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pole {
+    text-align: center;
+}
+
+
+.weather-block {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.711);
+}
+
+img {
+    width: 50px;
+}
